@@ -38,13 +38,13 @@
 // starting with the string and stringmethods->concat,escaping,length,indexof,substring,changecase,append,slice,split,includes
 
 // numbers and numbermethods
-const val1 = 100;
-const val2 = 50;
-let val = val1+val2;
-val =Math.PI;
-val =Math.ceil(2.4);
-val =Math.floor(Math.random()*20);
-console.log(val);
+// const val1 = 100;
+// const val2 = 50;
+// let val = val1+val2;
+// val =Math.PI;
+// val =Math.ceil(2.4);
+// val =Math.floor(Math.random()*20);
+// console.log(val);
 
 // stings template->length of the string,pushing the element to the array->push in thee end of the aray
 // unshift->adding the elements tto the front the array.pop->removing the elements(end) in the array
@@ -53,5 +53,99 @@ console.log(val);
 // slicing-> numbers.slice(1,2)removing the value of the array elements ,reverse the array,concating,sort the elements in the array
 // sorting the elements in the asc x-y; for the desc y-x;
 
+// template literals
+// const name ="darshan";
+// const age = 20;
+// const city = "banglore";
 
+// html = `
+// <ul>
+// <li>name:${name}</li>
+// <li>age:${age}</li>
+// <li>cit:${city}</li>
+// </ul>
+// `;
+// document.body.innerHTML = Html;
 
+// comparsion and conditional
+// const id= 101;
+
+// if (id == 100){
+//     console.log("yes the number is 100");
+// }else{
+//     console.log("no");
+// }
+// Logical 
+// const age = 11;
+
+// if (age>0 && age<12){
+//     console.log("he is child");
+// }else if (age>18 && age<50){
+//     console.log("he is infrant");
+// }else{
+//     console.log("he is adult")
+// }
+
+// lops in the javascript
+// for (let i=0; i<2; i++){
+//     console.log(`name `);
+// }
+// while
+// let i=0;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+// do while loop
+// let i =10;
+// do{
+//     i++;
+//     console.log(i);
+// }while(i<10);
+// for in loop
+// const name ={firstname:"darsh",age:20}
+
+// for(x in name){
+//     console.log(name[x]);
+// }
+
+// function declaration and expression
+// function greet(){
+//     console.log("darshan");
+// }
+// greet();
+
+// switch cases
+// const color= "yellow";
+
+// switch(color){
+//     case "red":
+//         console.log("it is red");
+//         break;
+//     case"blue":
+//         console.log("it is blue");
+//         break;
+//     default:
+//         console.log("it not a color")
+// }
+
+// const dayofWeek = new Date.getDay();
+// let day;
+
+// switch(dayofWeek){
+//     case 0:
+//         console.log("sunday");
+//         break;
+//     case 1:
+//         console.log("monday");
+//         break;
+//     case 2:
+//         console.log("tuesday");
+//         break;
+// }
+
+// scopes -> global and local
+for(i=0; i<5; i++){
+    console.log(i)
+}
+ console.log(i)
