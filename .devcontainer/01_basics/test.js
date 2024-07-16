@@ -145,7 +145,30 @@
 // }
 
 // scopes -> global and local
-for(i=0; i<5; i++){
-    console.log(i)
-}
- console.log(i)
+// for(let i=0; i<5; i++){
+   
+// }
+//  console.log(i);
+
+// going to the DOM 
+// let val;
+// val = document;  ->it will show the document present in the html code(document.all)-it will show all the document present in the code
+// val=document.forms; val=document.forms[0]; val =document.forms[0].id;
+// val=document.head; val=document.links;
+// console.log(val);
+
+// it will tell the code of documenets inthe html it can redirect to the console.
+
+// single element selector
+// console.log(document.getElementById("task-title"));
+// console.log(document.getElementById("task-title").id);
+// console.log(document.getElementById("task-title").classname);-it will show the classname
+// taskTitle.style.backgroundColor="black";
+// taskTitle.style.color="white";
+// taskTitle.textContent="carrent"; you can use innertext & innerhtml -this is for changing the the sentence in the webpage without editing the html
+
+// document.querySelector
+// console.log(document.querySelector(".card-title"));
+// document.querySelector("li").style.color="red"; this is tell the the first list item is red
+// document.querySelector("li:last-child").style.color="blue";this is tell the last element is blue
+// document.querySelector("li:nth-child(2)").style.color="red";this is tell the midlle or 2 elemt color
