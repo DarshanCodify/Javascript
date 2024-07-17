@@ -172,3 +172,23 @@
 // document.querySelector("li").style.color="red"; this is tell the the first list item is red
 // document.querySelector("li:last-child").style.color="blue";this is tell the last element is blue
 // document.querySelector("li:nth-child(2)").style.color="red";this is tell the midlle or 2 elemt color
+
+// multiple elements
+// const items = document.getElementsByClassName("Collection-item");
+// console.log(items);
+// items[0].computedStyleMap.color="red"; this is because it should be in the array format
+// items[3].textContent="name";  ->instead of class name when you use tagname you can do that
+
+// query Selector- document  -node list  -no need to convert an array
+// const lis = document.querySelectorAll("li.collection-item");
+// console.log(lis);
+
+// lis.forEach(function (li){
+//     li.textContent="hello";
+// });  in this all the text will convert to hello
+
+// const listOdd document.querySelectorAll("li:nth-child(Odd)");
+// console.log("listOdd");
+// listOdd.forEach(function(li)){
+//     li.getElementsbyClassName
+// }
