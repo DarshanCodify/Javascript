@@ -190,5 +190,5 @@
 // const listOdd document.querySelectorAll("li:nth-child(Odd)");
 // console.log("listOdd");
 // listOdd.forEach(function(li)){
-//     li.getElementsbyClassName
-// }
+//     li.style.backgroundColor="#ccc";
+// });
