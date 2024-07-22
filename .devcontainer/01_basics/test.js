@@ -192,3 +192,15 @@
 // listOdd.forEach(function(li)){
 //     li.style.backgroundColor="#ccc";
 // });
+
+// traversal of dom
+// crearingg the elements in js of html code- we will write the the html code using javascript not a html
+// const li = document.createElememt("li");
+// add class
+// li.className = "collection-item"; -we should give same classname to add the coloumn down like that we can add id and attribute
+// text Node
+// const list = document.querySelector("ul-collection");
+// List.append(document.createTextNode('micro'));
+// const link = document.createElement("a");
+// link.className = "delete"
+// console.log(li);
