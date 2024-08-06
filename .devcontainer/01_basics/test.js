@@ -205,8 +205,8 @@
 // link.className = "delete"
 // console.log(li);
 
-Remove and replace elements
-const newHeading = document.createElement("h2");
-add id
-console.log(newHeading);
-newHeading.appendChild(document.createTestNode("micro"));
+// Remove and replace elements
+// const newHeading = document.createElement("h2");
+// add id
+// console.log(newHeading);
+// newHeading.appendChild(document.createTestNode("micro"));
